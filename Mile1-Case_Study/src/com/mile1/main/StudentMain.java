@@ -14,11 +14,11 @@ public class StudentMain {
     	data[1]=new Student(null,new int[] {35,35,35});
     	data[2]=null;
     	data[3]=new Student("Manoj",null);
-    	data[0]=new Student("sekar",new int[] {35,35,35});
-    	data[0]=new Student("sekar",new int[] {35,35,35});
-    	data[0]=new Student("sekar",new int[] {35,35,35});
-    	data[0]=new Student("sekar",new int[] {35,35,35});
-    	data[0]=new Student("sekar",new int[] {35,35,35});
+    	data[4]=new Student("srinu",new int[] {100,100,99});
+    	data[5]=new Student("roy",new int[] {100,100,100});
+    	data[6]=new Student("SR",new int[] {95,95,95});
+    	data[7]=new Student("$R",new int[] {98,95,98});
+    	data[8]=new Student("SRinu",new int[] {95,85,96});
     	
     } 	
     
