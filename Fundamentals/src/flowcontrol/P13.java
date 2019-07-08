@@ -7,9 +7,10 @@ public class P13 {
 		// TODO Auto-generated method stub
 		//int start=Integer.parseInt(args[0]);
 	    //int end=Integer.parseInt(args[1]);
-		int start=10;
+		int start=2;
 		int c=0,i;
 		int end=99;
+		int prc=0;
 		for(i=start;i<=end;i++) {
 			c=0;
 			for(int j=2;j<=i/2;j++) {
@@ -23,8 +24,11 @@ public class P13 {
 		
 		   if(c==0 && i!=1) {
 			 System.out.print(i+" ");
+			 prc++;
 			
-		}}
+		}
+		   }
+		System.out.print(prc);
 
 	}
 

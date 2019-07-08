@@ -17,12 +17,13 @@ public char[] convert(int ar[]) {
 public class P4 {
 	public static void main(String []args) {
 	
-		Scanner s=new Scanner(System.in);
+		/*Scanner s=new Scanner(System.in);
 		int length=s.nextInt();
-		int ar[]=new int[length];
-		for(int i=0;i<ar.length;i++) {
+		int ar[]=new int[length];*/
+		int ar[]= {65,78,97,100};
+		/*for(int i=0;i<ar.length;i++) {
 			ar[i]=s.nextInt();
-		}
+		}*/
 	Conversion c=new Conversion();
 	System.out.println(c.convert(ar));
 
