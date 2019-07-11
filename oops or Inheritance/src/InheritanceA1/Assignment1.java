@@ -1,4 +1,4 @@
-package Inheritance;
+package InheritanceA1;
 class Animal{
 	void eat() {
 		System.out.println("Animal is eating");
@@ -20,7 +20,7 @@ class Bird extends Animal{
 		System.out.println("Bird is flying");
 	}
 }
-public class P1Demo {
+public class Assignment1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
