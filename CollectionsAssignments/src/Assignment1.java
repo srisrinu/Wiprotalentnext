@@ -17,5 +17,5 @@ public class Assignment1 {
 	 Iterator i=a.iterator();
 	 while(i.hasNext()) {
 		 System.out.println(i.next());}
-	 System.out.println(a.get(0));
+	 //System.out.println(a.get(0));
 	 }}
